@@ -50,12 +50,6 @@ html{
   font-family: 'Lobster', cursive;
 }
 
-#site3{
-  width:900px; margin:0 auto;
-  font-size: 13px;
-  font-family: 'Lobster', cursive;
-}
-
 #facts{
   margin-top: 0px;
   font-weight: bold;
@@ -93,13 +87,6 @@ html{
   font-family: 'Oswald', sans-serif;
   font-style:regular;
   color:#2F5876;
-}
-
-#google{
-  font-weight: bold;
-  font-family: 'Josefin Slab', serif;
-  font-size: 38px;
-  color:#7C4814;
 }
 
 #bar{
@@ -180,29 +167,8 @@ span{
   width:900px; margin:0 auto;
 }
 
-#pic2{
-  height:500px;
-  width:700px;
-  border:1px solid grey;
-}
-
 #l1{
   text-decoration: blink;
-}
-
-#ccst{
-  width:900px; margin:0 auto;
-  font-size: 20px;
-  font-family: 'Oswald', sans-serif;
-  color:#2F5876;
-}
-
-#goo{
-  width:900px; margin:0 auto;
-  font-size: 20px;
-  font-family: 'Oswald', sans-serif;
-  font-style:regular;
-  color:#2F5876;
 }
 
 #lg{
