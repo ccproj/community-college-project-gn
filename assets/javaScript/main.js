@@ -43,7 +43,7 @@ var game = new Phaser.Game(800, 600, Phaser.AUTO, 'gameDiv', { preload: preload,
         game.load.image('stop', 'assets/images/game/stop.png');
         game.load.image('ahead', 'assets/images/game/ahead3.png');
         game.load.image('finish', 'assets/images/game/finish.png');
-        game.load.image('google', 'assets/images/game/go.jpg');
+        game.load.image('success', 'assets/images/game/success.png');
         game.load.audio('jump', 'assets/images/game/mario.mp3');
         game.load.audio('crack', 'assets/images/game/crack.mp3');
         game.load.audio('food', 'assets/images/game/food.mp3');
@@ -147,7 +147,7 @@ function create() {
         game.physics.arcade.enable(enemy6);
         enemy6.body.collideWorldBounds = true; // enemy dont walk off the screen    
 
-        enemy5 = game.add.sprite(720,game.world.height -550, 'google');
+        enemy5 = game.add.sprite(720,game.world.height -550, 'success');
         game.physics.arcade.enable(enemy5);
         enemy5.body.collideWorldBounds = true;     
 
@@ -393,7 +393,7 @@ function create() {
         score += 200;
         scoreText.text = 'Score: ' + score;
         var style = { font: "35px Arial", fill: "white", align: "center" };
-        var text = game.add.text(game.world.centerX-60, game.world.centerY-100, "Welcome to GOOGLE!", style);
+        var text = game.add.text(game.world.centerX-60, game.world.centerY-100, "You Reached Success!", style);
         text.anchor.set(0.5);
 
         game.input.onDown.addOnce(removeText, this);
