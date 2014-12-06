@@ -1,0 +1,52 @@
+img{
+	margin-top: 50px;
+	width:800px;
+	height:350px;
+}
+
+p{
+	text-shadow: 2px 2px 2px #00BFFF;
+	font-size: 27px;
+	margin-top: -60px;
+	margin-left: -480px;
+}
+
+#button1{
+	background-color:#DAF3FA;
+	font-family: sans-serif;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 15px;
+	height:37px;
+	width:140px;
+	margin-top: -10px;
+}
+
+#button2{
+	background-color:#DAF3FA;
+	font-family: sans-serif;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size:15px;
+	height:37px;
+	width:170px;
+	margin-top: -10px;
+	margin-left: 15px;
+}
+
+#button1:hover {
+	box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 0px 0px;
+}
+
+#button2:hover {
+	box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 0px 0px;
+ 	color: blue;
+}
+
+#button2:hover span{
+	display:none;
+}
+
+#button2:hover:before{
+	content:"I'm feeling curious!";
+}

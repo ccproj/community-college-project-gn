@@ -1,0 +1,68 @@
+body {
+	background:url(../images/cc.png) ;
+	background-size: 100%;
+}
+
+#p{
+	margin-top: 15px;
+	margin-left: 150px;
+	margin-right: 150px;
+	border-width:3px;
+	border-style:dotted;
+	background-color:white;
+}
+
+span{
+	cursor:pointer;
+	color: #2F0B3A;
+}
+
+h1 {
+    font-family: 'Droid Serif', serif;
+    color: black;
+    text-align:center;
+    font-size:300%;
+}
+
+.btn {
+	margin-top: 0px;
+	height: 150px; 
+	width: 150px;   
+	background-image:url(../images/hat2.png);
+	background-color: transparent;
+	border:0px;
+}
+p{
+	font-family: 'Oswald', sans-serif;
+	font-size:20px;
+	color:#821A80;
+}
+
+.box {
+	margin-top: 15px;
+	border: 2px solid black ;
+	/*width: 10%;*/
+	background-color: transparent;
+	/*height:50px;*/
+	text-align: center;
+	margin-left: 400px;
+	margin-right: 400px;
+	background-color:white;
+}
+
+a:link{
+	text-decoration: none;
+	color:#2ECCFA;
+	font-size: 35px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	font: 35px 'Cookie', cursive;
+	display: inline;
+}

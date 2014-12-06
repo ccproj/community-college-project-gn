@@ -1,0 +1,34 @@
+div {
+    
+   
+    display:block;
+}
+
+body {
+    background-color:lightblue;
+   
+    display:block;
+}
+
+.fi{
+    
+    color: purple;
+    font-size: 50px;
+    display:block;
+}
+
+#fa{
+   
+    color: purple;
+    font-size: 30px;
+    display:block;
+}
+
+.fu{
+    
+    color: grey;
+    margin-top: -5px;
+    margin-right: 50px;
+    font-size: 25px;
+    display:block;
+}
