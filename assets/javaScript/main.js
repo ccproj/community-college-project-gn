@@ -147,7 +147,7 @@ function create() {
         game.physics.arcade.enable(enemy6);
         enemy6.body.collideWorldBounds = true; // enemy dont walk off the screen    
 
-        enemy5 = game.add.sprite(720,game.world.height -550, 'success');
+        enemy5 = game.add.sprite(700,game.world.height -550, 'success');
         game.physics.arcade.enable(enemy5);
         enemy5.body.collideWorldBounds = true;     
 
