@@ -1,5 +1,5 @@
 body {
-	background-color:white;
+	background-color:#EFFBEF;
 	background-size: 100%;
 }
 
@@ -18,7 +18,7 @@ img{
 	background-color:white;
 }
 
-span{
+#mySpan{
 	cursor:pointer;
 	color: #2F0B3A;
 }
