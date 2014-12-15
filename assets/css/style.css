@@ -43,6 +43,19 @@ p{
 	font-size:20px;
 	color:#821A80;
 }
+
+.box {
+	margin-top: 15px;
+	border: 2px solid black ;
+	/*width: 10%;*/
+	background-color: transparent;
+	/*height:50px;*/
+	text-align: center;
+	margin-left: 400px;
+	margin-right: 400px;
+	background-color:white;
+}
+
 #cont{ 
  	margin-top: 50px; 
  	margin-right: 20px; 
@@ -73,17 +86,19 @@ p{
          right: 0; 
  } 
 
-.box {
-	margin-top: 15px;
-	border: 2px solid black ;
-	/*width: 10%;*/
-	background-color: transparent;
-	/*height:50px;*/
-	text-align: center;
-	margin-left: 400px;
-	margin-right: 400px;
-	background-color:white;
-}
+#em1{ 
+	font-family: 'Oswald', sans-serif; 
+	font-size:10px; 
+ 	color:black;	 
+} 
+
+ #em2{ 
+        font-family: 'Oswald', sans-serif; 
+	font-size:10px; 
+	color:black;	 
+} 
+
+
 
 a:link{
 	text-decoration: none;
