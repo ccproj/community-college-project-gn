@@ -117,7 +117,9 @@ h1{
 	font-size: 46px;
 	font-family: 'Pacifico', cursive;
 }
-
+#sixth{
+	margin-top:-70px;
+}
 #star{
 	color: yellow;
 }
